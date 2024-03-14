@@ -1,0 +1,157 @@
+
+
+.we-handle-it {
+  margin: 0;
+}
+
+.title {
+  position: absolute;
+  top: 49px;
+  left: 200px;
+  font-size: 56px;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 922px;
+  height: 201px;
+  z-index: 1;
+}
+
+.subtitle {
+  position: absolute;
+  top: 298px;
+  left: 215px;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 922px;
+  height: 114px;
+  z-index: 1;
+}
+
+.description {
+  position: absolute;
+  top: 470px;
+  left: 320px;
+  font-weight: 500;
+  display: inline-block;
+  width: 691px;
+  height: 64px;
+  z-index: 1;
+}
+
+.vector-marker-icon {
+  position: absolute;
+  top: -4px;
+  left: -75px;
+  width: 593.66px;
+  height: 701.95px;
+}
+
+.hands-3-icon {
+  position: absolute;
+  top: -115px;
+  left: -32px;
+  width: 283.01px;
+  height: 412.5px;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.like-1-1-1 {
+  position: absolute;
+  top: 195px;
+  left: 145px;
+  width: 120.48px;
+  height: 101.94px;
+  object-fit: contain;
+  z-index: 3;
+}
+
+.parent-frame {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 518.7px;
+}
+
+.hands-3-icon1 {
+  position: absolute;
+  top: 192px;
+  left: -145px;
+  width: 317px;
+  height: 433px;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.vector-icon {
+  position: absolute;
+  top: 10px;
+  left: -86px;
+  width: 366.67px;
+  height: 464.84px;
+  z-index: 3;
+}
+
+.like-1-1-2 {
+  position: absolute;
+  top: 89px;
+  left: -175px;
+  width: 120.48px;
+  height: 101.94px;
+  object-fit: contain;
+  z-index: 4;
+}
+
+.second-frame {
+  position: absolute;
+  top: 119px;
+  left: 1188px;
+  width: 324px;
+  height: 516px;
+}
+
+.desktop-1 {
+  position: relative;
+  background: #e6f2ff;
+  width: 100%;
+  height: 635px;
+  overflow: hidden;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 20px;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 45px;
+  }
+
+  .subtitle {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: 34px;
+  }
+
+  .subtitle {
+    font-size: 19px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+}

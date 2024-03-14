@@ -1,0 +1,199 @@
+body {
+    background: #e6f2ff;
+    
+}
+
+.desworksec2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 1512px;
+    height: 666px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: #e6f2ff;
+}
+
+
+.vectorleftworksec2 {
+    position: absolute;
+    width: 593.66px;
+    height: 701.95px;
+    transform: rotate(-3.31deg);
+    order: 1;
+    top: -4px;
+    left:-75px;
+
+
+}
+
+
+
+.con1ws2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 40px;
+    left: 265px;
+    /* left: 0; */
+    order: 2;
+    /* padding-top: 50px; */
+    /* padding-bottom: 50px; */
+    /* left: 150px;
+    top: -15; */
+}
+
+.titlews2 {
+    font-family: "SF Pro Display";
+    width: 922px;
+    height: 201px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    text-align: center;
+    white-space: nowrap;
+    margin: 30px 0;
+}
+
+/* .con2 {
+    position: relative;
+    display: flex;
+    order: 3;
+    width: 922px;
+    height: 114px;
+    left: -200px;
+    top: 500;
+    margin: 0 20px;
+
+    /* padding: 69px, 0px, 70px, 104px; */
+
+/* /*  */
+
+.subtitlews2 {
+    font-family: "SF Pro Display";
+    width: 922px;
+    height: 114px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    text-align: center;
+    white-space: nowrap;
+    margin: 30px 0;
+}
+
+
+
+.descriptionws2 {
+    font-family: "SF Pro Display";
+    width: 691px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    margin: 20px 0;
+
+
+
+}
+
+.vectorrightws2 {
+    position: absolute;
+    top: 30px;
+    right: -226px; 
+    width: 366.67px;
+    height: 464.84px;
+    /* transform: rotate(-3.31deg); */
+     /* top: 10px;  */
+     /* right: -86px;  */
+    z-index: 3;
+
+}
+
+.lefthandws2 {
+    position: relative;
+    top: -115px;
+    left: -32px;
+    width: 283.01px;
+    height: 412.5px;
+     object-fit: contain; 
+    z-index: 3;
+
+
+}
+
+.righthandws2 {
+    position: absolute;
+    /* bottom: 0; if one frame hand then use this */
+    /* right: 0;
+    width: 317px;
+    height: 433px;
+    object-fit: cover; */
+    
+    top: 302px;
+    right: -145px;
+    width: 317px;
+    height: 433px;
+    object-fit: cover;
+    /* z-index: 2; */
+}
+
+.leftlikews2 {
+    position: absolute;
+    /* background-color: #e6f2ff; */
+    color: #e6f2ff;
+    /* top: 195px;
+    left: 145px; */
+    width: 120.48px;
+    height: 101.94px;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 340px;
+    /* Adjust as needed */
+    margin-left: 130px;
+    object-fit: contain;
+    z-index: 3;
+}
+
+.rightlikews2 {
+    position: absolute;
+    /* background-color: #e6f2ff;
+  color: #e6f2ff; */
+    /* background-color: rgba(#e6f2ff); */
+    /* background-color: #e6f2ff; */
+    /* display: inline-block;
+    top: 89px;
+    left: -175px;
+    width: 120.48px;
+    height: 101.94px;
+    object-fit: contain;
+    z-index: 4; */
+    bottom: 0;
+    right: 0;
+    margin-bottom: 370px;
+    
+    margin-right: 110px;
+    
+    z-index: 4;
+    width: 120.48px;
+    height: 101.94px;
+
+}
+/* .vectorrightws2,
+.lefthandws2,
+.righthandws2,
+.leftlikews2,
+.rightlikews2 {
+    display: none; /* Hide the elements by default */
+
+/* .worksec2.visible .vectorrightws2,
+.worksec2.visible .lefthandws2,
+.worksec2.visible .righthandws2,
+.worksec2.visible .leftlikews2,
+.worksec2.visible .rightlikews2 {
+    display: block; /* Make the elements visible when worksec2 is visible */

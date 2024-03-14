@@ -1,0 +1,82 @@
+
+.reliability{
+    width : 1512px;
+    height: 643px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.first-card{
+    width: 580px;
+    height: 515px;
+    border-radius: 16px;
+    background-color: darkblue;
+    margin-top: 64px;
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column; 
+
+}
+.second-card{
+    width: 580px;
+    height: 515px;
+    border-radius: 16px;
+    background-color:#FFFFFF;     
+    margin-top:64px;
+    margin-right: 160px;
+    display: flex;
+    flex-direction: column;
+}
+.logo-upper{
+    height: 120px;
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo-lower{
+    height: 120px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.reliability-description{
+    width: 412px;
+    height: 160px;
+    margin-top: 16px;
+    margin-left: 56px;
+    font-family: SF pro text;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #F8F5F0;
+}
+.second-card>.reliability-description{
+    color: #1F392C;
+}
+.reliability-title{
+    width: 188px;
+    height: 67px;
+    margin-top: 56px;
+    margin-left: 56px;
+    font-family: SF Pro Display;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+    color: #1F392C;
+
+}
+.first-card:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
+    transition: all .4s ease;
+}
+.second-card:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
+    transition: all .4s ease;
+}
+.logo-upper>img{
+    filter: hue-rotate(-90deg); 
+}
+.logo-lower>img{
+    filter: hue-rotate(-90deg);
+}
